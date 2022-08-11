@@ -1,0 +1,25 @@
+.wrap {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.cards {
+    height: 90%;
+    width: 90%;
+    margin: auto;
+}
+
+.CardTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small_card {
+    width: 45%;
+}
+
+.small_card_col {
+    display: flex;
+    justify-content: space-between;
+}

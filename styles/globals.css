@@ -1,0 +1,155 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+
+div#__next {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.bi {
+  /* margin-right: 10px; */
+  font-size: 22px;
+}
+
+.bi-arrow-clockwise {
+  cursor: pointer;
+  background-color: #fafafa;
+  border: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+@-webkit-keyframes rotate-center {
+  0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+  }
+  100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-center {
+  0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0);
+  }
+  100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+  }
+}
+
+.refresh_btn {
+  -webkit-animation: rotate-center 600ms ease-in-out both;
+  animation: rotate-center 600ms ease-in-out both;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  div.Home_wrap__7j_Ic {
+    overflow-y: scroll;
+    margin-bottom: 30px;
+  }
+
+  div.Home_small_card__cR4V5 {
+    width: 100%;
+  }
+
+  div.Schedule_ToDoList__Bmdk2 {
+    width: 100%;
+    grid-template-columns: auto;
+  }
+
+  div.Home_small_card_col__yXwJr {
+    flex-direction: column;
+    gap: 20px 0px;
+  }
+
+  div.Meeting_header__XT8N1 {
+    width: 87%;
+  }
+
+  div.Main_contents_header_right_side__zuqMw {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  div.Meeting_meeting_list__I7e0P {
+    width: 95%;
+  }
+
+  div.Meeting_meeting_count__STBEV {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  i.Meeting_history_icon__Sa44f {
+    font-size: 15px;
+    margin: 0;
+  }
+
+  li.Meeting_meeting_list_li__d7_NV:hover {
+    padding: 10px 0px 10px 20px;
+  }
+
+  div.Meeting_slide_left__zrc_q {
+    z-index: 10;
+  }
+
+  span.Meeting_enter_btn__BPwSO {
+    margin-right: 5px;
+  }
+
+  span.Meeting_chatting_date__cvZ9R {
+    margin-left: 30px;
+  }
+
+  span.Meeting_chatting_title__bopwA {
+    width: 50px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+  }
+}

@@ -1,0 +1,5 @@
+fastapi
+databases
+pydantic
+jinja2
+aiosqlite

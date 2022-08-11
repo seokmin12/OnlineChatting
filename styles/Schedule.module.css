@@ -1,0 +1,97 @@
+.wrap {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.ToDoList {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    overflow-y: scroll;
+    grid-auto-rows: 40%;
+    grid-auto-flow: row;
+}
+
+.Card {
+    border-radius: 15px;
+    background-color: #ffffff;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+.Written {
+    padding: 10px 20px;
+    box-shadow:  20px 20px 60px #d9d9d9,
+                -20px -20px 60px #ffffff;
+}
+
+.Unwritten {
+    border: 1px dashed #ccc;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Card_header {
+    margin: 10px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Card_title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* .header {
+    display: flex;
+    margin-top: 20px;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.Dates {
+    display: flex;
+    align-items: center;
+}
+
+.date {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.YearMonth {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.month {
+    font-size: 13px;
+}
+
+.year {
+    font-size: 13px;
+}
+
+.Days {
+    display: flex;
+    align-items: center;
+} */
